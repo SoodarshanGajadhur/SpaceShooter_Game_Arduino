@@ -59,6 +59,12 @@ With the arduinos wired according to the instructions above and with the both of
 # Notes:
 ### Communication() function:
 Our handshake protocol does not designate an arduino as server/client, either arduino can send a start-game request to the other arduino and then wait for a reply. Once the second arduino's user presses the start button, an acknowledgement is first sent to have the first arduino exit its initial while loop and to inform the user that the match is starting. After a short delay, the second arduino sends another signal before starting the match while the first arduino also starts the match the moment it receives said signal. As such, both player should not press start game at the same time.
+
+# Screenshots:
+![gameplay](https://user-images.githubusercontent.com/84073248/126904682-53523a1b-8a12-4c9e-b20e-d47feb1fc1f8.png)
+![game_over](https://user-images.githubusercontent.com/84073248/126904685-8b986a0f-a2f3-4ea2-a671-b52f3faabbc5.png)
+![setup](https://user-images.githubusercontent.com/84073248/126904688-cb1267c6-d096-4844-9df6-ffbd5df00843.png)
+
 	
 	
 
