@@ -26,12 +26,11 @@ In folder imageToSD:
 Store all the .lcd files (high.lcd, nhigh.lcd, space.lcd) found in this folder in the SD card for both arduino.
 
 Please note that the space.lcd image does not display correctly on the display since there was a bug in the provided tool
-bmp2lcd, as was discussed in email with Mr. Zac.
+bmp2lcd.
 
 Additional libraries (in folder libraries):
 	*Metro library
 	*EEPROM library
-	Include these libraries in the arduino-ua directory in home. We have already made relevant changes in our makefile.
 
 Accessories:
     2xArduino Mega Board (AMG)
@@ -57,7 +56,10 @@ Running instructions:
 
 Notes:
 Communication() function:
-	-Our handshake protocol does not designate an arduino as server/client, either arduino can send a start-game request to the other arduino and then wait for a reply. Once the second arduino's user presses the start button, an acknowledgement is first sent to have the first arduino exit its initial while loop and to inform the user that the match is starting. After a short delay, the second arduino sends another signal before starting the match while the first arduino also starts the match the moment it receives said signal. As such, both player should not press start game at the same time.
+	Our handshake protocol does not designate an arduino as server/client, either arduino can send a start-game request to the other arduino and then wait for a reply. 
+	Once the second arduino's user presses the start button, an acknowledgement is first sent to have the first arduino exit its initial while loop and to inform the user that the match is starting. 
+	After a short delay, the second arduino sends another signal before starting the match while the first arduino also starts the match the moment it receives said signal. 
+	As such, both player should not press start game at the same time.
 
 
 
