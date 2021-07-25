@@ -1,8 +1,5 @@
 /*----------------------------------------------------
 Names: Soodarshan Gajadhur & Ren Wen Lim 
-ID: 1632607
-
-CMPUT 275, Winter 2020
 
 Final Project - Space Shooter
 ----------------------------------------------------*/
