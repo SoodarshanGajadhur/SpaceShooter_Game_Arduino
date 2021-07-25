@@ -1,8 +1,6 @@
 ----------------------------------------------------
 Names: Soodarshan Gajadhur & Ren Wen Lim 
 
-CMPUT 275, Winter 2020
-
 Project: Multi-Player Space Shooter on two Arduino connected together
 ----------------------------------------------------------------------
 
