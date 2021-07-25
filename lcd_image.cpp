@@ -1,5 +1,6 @@
 /*
  * Routine for drawing an image patch from the SD card to the LCD display.
+ Reference: CMPUT 275 Winter 2020 UofA - provided template code
  */
 
 #include "Adafruit_GFX.h"    // Core graphics library
