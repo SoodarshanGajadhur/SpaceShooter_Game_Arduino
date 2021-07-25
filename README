@@ -6,7 +6,7 @@ CMPUT 275, Winter 2020
 Project: Space Shooter
 ----------------------------------------------------
 
-#Description:
+# Description:
 Using 2 Arduinos with TFT-displays connected head-to-head, players will each control a spaceship, located at opposite ends of the displays, 
 and have the goal of hitting the other player and enemy spaceship(s) in the centre. Players will be able to move up and down and fire their cannon.
 
