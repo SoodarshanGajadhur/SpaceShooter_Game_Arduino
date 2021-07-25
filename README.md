@@ -54,14 +54,11 @@ bmp2lcd.
     Arduino Pin 45  <---> Arduino 5V
 
 # Running instructions:
-	With the arduinos wired according to the instructions above and with the both of them oriented such that their usb cables are facing away from each other (see video), connect both arduinos to the computer. From the directory containing the included files (SpaceShooter directory), use the command "make upload-0" & "make upload-1" to upload the code to both arduinos
+With the arduinos wired according to the instructions above and with the both of them oriented such that their usb cables are facing away from each other (see video), connect both arduinos to the computer. From the directory containing the included files (SpaceShooter directory), use the command "make upload-0" & "make upload-1" to upload the code to both arduinos
 
 # Notes:
 ### Communication() function:
-	Our handshake protocol does not designate an arduino as server/client, either arduino can send a start-game request to the other arduino and then wait for a reply. 
-	Once the second arduino's user presses the start button, an acknowledgement is first sent to have the first arduino exit its initial while loop and to inform the user that the match is starting. 
-	After a short delay, the second arduino sends another signal before starting the match while the first arduino also starts the match the moment it receives said signal. 
-	As such, both player should not press start game at the same time.
+Our handshake protocol does not designate an arduino as server/client, either arduino can send a start-game request to the other arduino and then wait for a reply. Once the second arduino's user presses the start button, an acknowledgement is first sent to have the first arduino exit its initial while loop and to inform the user that the match is starting. After a short delay, the second arduino sends another signal before starting the match while the first arduino also starts the match the moment it receives said signal. As such, both player should not press start game at the same time.
 	
 	
 
