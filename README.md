@@ -1,7 +1,7 @@
 ----------------------------------------------------
 Names: Soodarshan Gajadhur & Ren Wen Lim 
 
-Project: Multi-Player Space Shooter on two Arduino connected together
+Group Project: Multi-Player Space Shooter on two Arduino connected together
 ----------------------------------------------------------------------
 
 # Description:
